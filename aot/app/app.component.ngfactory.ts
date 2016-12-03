@@ -49,7 +49,7 @@ class View_AppComponent_Host0 extends import1.AppView<any> {
     super(View_AppComponent_Host0,renderType_AppComponent_Host,import5.ViewType.HOST,viewUtils,parentView,parentIndex,parentElement,import6.ChangeDetectorStatus.CheckAlways);
   }
   createInternal(rootSelector:string):import7.ComponentRef<any> {
-    this._el_0 = import3.selectOrCreateRenderHostElement(this.renderer,'my-app',import3.EMPTY_INLINE_ARRAY,rootSelector,(null as any));
+    this._el_0 = import3.selectOrCreateRenderHostElement(this.renderer,'K-Online',import3.EMPTY_INLINE_ARRAY,rootSelector,(null as any));
     this.compView_0 = new View_AppComponent0(this.viewUtils,this,0,this._el_0);
     this._AppComponent_0_3 = new Wrapper_AppComponent();
     this.compView_0.create(this._AppComponent_0_3.context);
@@ -71,33 +71,351 @@ class View_AppComponent_Host0 extends import1.AppView<any> {
     cb(this._el_0,ctx);
   }
 }
-export const AppComponentNgFactory:import7.ComponentFactory<import0.AppComponent> = new import7.ComponentFactory<import0.AppComponent>('my-app',View_AppComponent_Host0,import0.AppComponent);
+export const AppComponentNgFactory:import7.ComponentFactory<import0.AppComponent> = new import7.ComponentFactory<import0.AppComponent>('K-Online',View_AppComponent_Host0,import0.AppComponent);
 const styles_AppComponent:any[] = ([] as any[]);
 var renderType_AppComponent:import2.RenderComponentType = import3.createRenderComponentType('',0,import4.ViewEncapsulation.None,styles_AppComponent,{});
 export class View_AppComponent0 extends import1.AppView<import0.AppComponent> {
   _el_0:any;
   _text_1:any;
-  /*private*/ _expr_2:any;
+  _el_2:any;
+  _text_3:any;
+  _el_4:any;
+  _text_5:any;
+  _el_6:any;
+  _text_7:any;
+  _el_8:any;
+  _text_9:any;
+  _text_10:any;
+  _el_11:any;
+  _text_12:any;
+  _el_13:any;
+  _text_14:any;
+  _el_15:any;
+  _text_16:any;
+  _text_17:any;
+  _el_18:any;
+  _text_19:any;
+  _text_20:any;
+  _text_21:any;
+  _el_22:any;
+  _text_23:any;
+  _el_24:any;
+  _text_25:any;
+  _el_26:any;
+  _el_27:any;
+  _text_28:any;
+  _text_29:any;
+  _el_30:any;
+  _el_31:any;
+  _text_32:any;
+  _text_33:any;
+  _el_34:any;
+  _el_35:any;
+  _text_36:any;
+  _text_37:any;
+  _el_38:any;
+  _text_39:any;
+  _el_40:any;
+  _text_41:any;
+  _el_42:any;
+  _text_43:any;
+  _el_44:any;
+  _text_45:any;
+  _el_46:any;
+  _el_47:any;
+  _text_48:any;
+  _text_49:any;
+  _el_50:any;
+  _el_51:any;
+  _text_52:any;
+  _text_53:any;
+  _el_54:any;
+  _el_55:any;
+  _text_56:any;
+  _text_57:any;
+  _el_58:any;
+  _text_59:any;
+  _el_60:any;
+  _text_61:any;
+  _text_62:any;
+  _el_63:any;
+  _el_64:any;
+  _text_65:any;
+  _text_66:any;
+  _el_67:any;
+  _el_68:any;
+  _text_69:any;
+  _text_70:any;
+  _text_71:any;
+  _text_72:any;
+  _text_73:any;
+  _text_74:any;
+  _text_75:any;
+  _text_76:any;
+  _text_77:any;
+  _text_78:any;
+  _el_79:any;
+  _text_80:any;
+  _el_81:any;
+  _text_82:any;
+  _el_83:any;
+  _text_84:any;
+  _text_85:any;
+  _text_86:any;
+  _el_87:any;
+  _text_88:any;
+  _el_89:any;
+  _text_90:any;
+  _text_91:any;
+  _el_92:any;
+  _text_93:any;
+  _text_94:any;
+  _text_95:any;
+  _el_96:any;
+  _text_97:any;
+  _el_98:any;
+  _text_99:any;
+  _text_100:any;
+  _text_101:any;
+  _text_102:any;
+  _el_103:any;
+  _text_104:any;
+  _el_105:any;
+  _text_106:any;
+  _el_107:any;
+  _text_108:any;
+  _text_109:any;
+  _text_110:any;
   constructor(viewUtils:import3.ViewUtils,parentView:import1.AppView<any>,parentIndex:number,parentElement:any) {
     super(View_AppComponent0,renderType_AppComponent,import5.ViewType.COMPONENT,viewUtils,parentView,parentIndex,parentElement,import6.ChangeDetectorStatus.CheckAlways);
-    this._expr_2 = import6.UNINITIALIZED;
   }
   createInternal(rootSelector:string):import7.ComponentRef<any> {
     const parentRenderNode:any = this.renderer.createViewRoot(this.parentElement);
-    this._el_0 = import3.createRenderElement(this.renderer,parentRenderNode,'h1',import3.EMPTY_INLINE_ARRAY,(null as any));
-    this._text_1 = this.renderer.createText(this._el_0,'',(null as any));
+    this._el_0 = import3.createRenderElement(this.renderer,parentRenderNode,'nav',new import3.InlineArray2(2,'class','navbar navbar-default navbar-fixed-top'),(null as any));
+    this._text_1 = this.renderer.createText(this._el_0,'\n  ',(null as any));
+    this._el_2 = import3.createRenderElement(this.renderer,this._el_0,'div',new import3.InlineArray2(2,'class','container'),(null as any));
+    this._text_3 = this.renderer.createText(this._el_2,'\n    ',(null as any));
+    this._el_4 = import3.createRenderElement(this.renderer,this._el_2,'div',new import3.InlineArray2(2,'class','navbar-header'),(null as any));
+    this._text_5 = this.renderer.createText(this._el_4,'\n      ',(null as any));
+    this._el_6 = import3.createRenderElement(this.renderer,this._el_4,'button',new import3.InlineArray16(12,'aria-controls','navbar','aria-expanded','false','class','navbar-toggle collapsed','data-target','#navbar','data-toggle','collapse','type','button'),(null as any));
+    this._text_7 = this.renderer.createText(this._el_6,'\n            ',(null as any));
+    this._el_8 = import3.createRenderElement(this.renderer,this._el_6,'span',new import3.InlineArray2(2,'class','sr-only'),(null as any));
+    this._text_9 = this.renderer.createText(this._el_8,'Toggle navigation',(null as any));
+    this._text_10 = this.renderer.createText(this._el_6,'\n            ',(null as any));
+    this._el_11 = import3.createRenderElement(this.renderer,this._el_6,'span',new import3.InlineArray2(2,'class','icon-bar'),(null as any));
+    this._text_12 = this.renderer.createText(this._el_6,'\n            ',(null as any));
+    this._el_13 = import3.createRenderElement(this.renderer,this._el_6,'span',new import3.InlineArray2(2,'class','icon-bar'),(null as any));
+    this._text_14 = this.renderer.createText(this._el_6,'\n            ',(null as any));
+    this._el_15 = import3.createRenderElement(this.renderer,this._el_6,'span',new import3.InlineArray2(2,'class','icon-bar'),(null as any));
+    this._text_16 = this.renderer.createText(this._el_6,'\n          ',(null as any));
+    this._text_17 = this.renderer.createText(this._el_4,'\n      ',(null as any));
+    this._el_18 = import3.createRenderElement(this.renderer,this._el_4,'a',new import3.InlineArray4(4,'class','navbar-brand','href','#'),(null as any));
+    this._text_19 = this.renderer.createText(this._el_18,'Project name',(null as any));
+    this._text_20 = this.renderer.createText(this._el_4,'\n    ',(null as any));
+    this._text_21 = this.renderer.createText(this._el_2,'\n    ',(null as any));
+    this._el_22 = import3.createRenderElement(this.renderer,this._el_2,'div',new import3.InlineArray4(4,'class','collapse navbar-collapse','id','navbar'),(null as any));
+    this._text_23 = this.renderer.createText(this._el_22,'\n      ',(null as any));
+    this._el_24 = import3.createRenderElement(this.renderer,this._el_22,'ul',new import3.InlineArray2(2,'class','nav navbar-nav'),(null as any));
+    this._text_25 = this.renderer.createText(this._el_24,'\n        ',(null as any));
+    this._el_26 = import3.createRenderElement(this.renderer,this._el_24,'li',new import3.InlineArray2(2,'class','active'),(null as any));
+    this._el_27 = import3.createRenderElement(this.renderer,this._el_26,'a',new import3.InlineArray2(2,'href','#'),(null as any));
+    this._text_28 = this.renderer.createText(this._el_27,'Home',(null as any));
+    this._text_29 = this.renderer.createText(this._el_24,'\n        ',(null as any));
+    this._el_30 = import3.createRenderElement(this.renderer,this._el_24,'li',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._el_31 = import3.createRenderElement(this.renderer,this._el_30,'a',new import3.InlineArray2(2,'href','#about'),(null as any));
+    this._text_32 = this.renderer.createText(this._el_31,'About',(null as any));
+    this._text_33 = this.renderer.createText(this._el_24,'\n        ',(null as any));
+    this._el_34 = import3.createRenderElement(this.renderer,this._el_24,'li',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._el_35 = import3.createRenderElement(this.renderer,this._el_34,'a',new import3.InlineArray2(2,'href','#contact'),(null as any));
+    this._text_36 = this.renderer.createText(this._el_35,'Contact',(null as any));
+    this._text_37 = this.renderer.createText(this._el_24,'\n        ',(null as any));
+    this._el_38 = import3.createRenderElement(this.renderer,this._el_24,'li',new import3.InlineArray2(2,'class','dropdown'),(null as any));
+    this._text_39 = this.renderer.createText(this._el_38,'\n          ',(null as any));
+    this._el_40 = import3.createRenderElement(this.renderer,this._el_38,'a',new import3.InlineArray16(12,'aria-expanded','false','aria-haspopup','true','class','dropdown-toggle','data-toggle','dropdown','href','#','role','button'),(null as any));
+    this._text_41 = this.renderer.createText(this._el_40,'Dropdown ',(null as any));
+    this._el_42 = import3.createRenderElement(this.renderer,this._el_40,'span',new import3.InlineArray2(2,'class','caret'),(null as any));
+    this._text_43 = this.renderer.createText(this._el_38,'\n          ',(null as any));
+    this._el_44 = import3.createRenderElement(this.renderer,this._el_38,'ul',new import3.InlineArray2(2,'class','dropdown-menu'),(null as any));
+    this._text_45 = this.renderer.createText(this._el_44,'\n            ',(null as any));
+    this._el_46 = import3.createRenderElement(this.renderer,this._el_44,'li',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._el_47 = import3.createRenderElement(this.renderer,this._el_46,'a',new import3.InlineArray2(2,'href','#'),(null as any));
+    this._text_48 = this.renderer.createText(this._el_47,'Action',(null as any));
+    this._text_49 = this.renderer.createText(this._el_44,'\n            ',(null as any));
+    this._el_50 = import3.createRenderElement(this.renderer,this._el_44,'li',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._el_51 = import3.createRenderElement(this.renderer,this._el_50,'a',new import3.InlineArray2(2,'href','#'),(null as any));
+    this._text_52 = this.renderer.createText(this._el_51,'Another action',(null as any));
+    this._text_53 = this.renderer.createText(this._el_44,'\n            ',(null as any));
+    this._el_54 = import3.createRenderElement(this.renderer,this._el_44,'li',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._el_55 = import3.createRenderElement(this.renderer,this._el_54,'a',new import3.InlineArray2(2,'href','#'),(null as any));
+    this._text_56 = this.renderer.createText(this._el_55,'Something else here',(null as any));
+    this._text_57 = this.renderer.createText(this._el_44,'\n            ',(null as any));
+    this._el_58 = import3.createRenderElement(this.renderer,this._el_44,'li',new import3.InlineArray4(4,'class','divider','role','separator'),(null as any));
+    this._text_59 = this.renderer.createText(this._el_44,'\n            ',(null as any));
+    this._el_60 = import3.createRenderElement(this.renderer,this._el_44,'li',new import3.InlineArray2(2,'class','dropdown-header'),(null as any));
+    this._text_61 = this.renderer.createText(this._el_60,'Nav header',(null as any));
+    this._text_62 = this.renderer.createText(this._el_44,'\n            ',(null as any));
+    this._el_63 = import3.createRenderElement(this.renderer,this._el_44,'li',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._el_64 = import3.createRenderElement(this.renderer,this._el_63,'a',new import3.InlineArray2(2,'href','#'),(null as any));
+    this._text_65 = this.renderer.createText(this._el_64,'Separated link',(null as any));
+    this._text_66 = this.renderer.createText(this._el_44,'\n            ',(null as any));
+    this._el_67 = import3.createRenderElement(this.renderer,this._el_44,'li',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._el_68 = import3.createRenderElement(this.renderer,this._el_67,'a',new import3.InlineArray2(2,'href','#'),(null as any));
+    this._text_69 = this.renderer.createText(this._el_68,'One more separated link',(null as any));
+    this._text_70 = this.renderer.createText(this._el_44,'\n          ',(null as any));
+    this._text_71 = this.renderer.createText(this._el_38,'\n        ',(null as any));
+    this._text_72 = this.renderer.createText(this._el_24,'\n      ',(null as any));
+    this._text_73 = this.renderer.createText(this._el_22,'\n    ',(null as any));
+    this._text_74 = this.renderer.createText(this._el_2,'\n    ',(null as any));
+    this._text_75 = this.renderer.createText(this._el_2,'\n  ',(null as any));
+    this._text_76 = this.renderer.createText(this._el_0,'\n',(null as any));
+    this._text_77 = this.renderer.createText(parentRenderNode,'\n\n',(null as any));
+    this._text_78 = this.renderer.createText(parentRenderNode,'\n',(null as any));
+    this._el_79 = import3.createRenderElement(this.renderer,parentRenderNode,'div',new import3.InlineArray2(2,'class','container'),(null as any));
+    this._text_80 = this.renderer.createText(this._el_79,'\n  ',(null as any));
+    this._el_81 = import3.createRenderElement(this.renderer,this._el_79,'div',new import3.InlineArray2(2,'class','page-header'),(null as any));
+    this._text_82 = this.renderer.createText(this._el_81,'\n    ',(null as any));
+    this._el_83 = import3.createRenderElement(this.renderer,this._el_81,'h1',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._text_84 = this.renderer.createText(this._el_83,'Sticky footer with fixed navbar',(null as any));
+    this._text_85 = this.renderer.createText(this._el_81,'\n  ',(null as any));
+    this._text_86 = this.renderer.createText(this._el_79,'\n  ',(null as any));
+    this._el_87 = import3.createRenderElement(this.renderer,this._el_79,'p',new import3.InlineArray2(2,'class','lead'),(null as any));
+    this._text_88 = this.renderer.createText(this._el_87,'Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar\n    has been added with ',(null as any));
+    this._el_89 = import3.createRenderElement(this.renderer,this._el_87,'code',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._text_90 = this.renderer.createText(this._el_89,'padding-top: 60px;',(null as any));
+    this._text_91 = this.renderer.createText(this._el_87,' on the ',(null as any));
+    this._el_92 = import3.createRenderElement(this.renderer,this._el_87,'code',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._text_93 = this.renderer.createText(this._el_92,'body > .container',(null as any));
+    this._text_94 = this.renderer.createText(this._el_87,'.',(null as any));
+    this._text_95 = this.renderer.createText(this._el_79,'\n  ',(null as any));
+    this._el_96 = import3.createRenderElement(this.renderer,this._el_79,'p',import3.EMPTY_INLINE_ARRAY,(null as any));
+    this._text_97 = this.renderer.createText(this._el_96,'Back to ',(null as any));
+    this._el_98 = import3.createRenderElement(this.renderer,this._el_96,'a',new import3.InlineArray2(2,'href','../sticky-footer'),(null as any));
+    this._text_99 = this.renderer.createText(this._el_98,'the default sticky footer',(null as any));
+    this._text_100 = this.renderer.createText(this._el_96,' minus the navbar.',(null as any));
+    this._text_101 = this.renderer.createText(this._el_79,'\n',(null as any));
+    this._text_102 = this.renderer.createText(parentRenderNode,'\n\n',(null as any));
+    this._el_103 = import3.createRenderElement(this.renderer,parentRenderNode,'footer',new import3.InlineArray2(2,'class','footer'),(null as any));
+    this._text_104 = this.renderer.createText(this._el_103,'\n  ',(null as any));
+    this._el_105 = import3.createRenderElement(this.renderer,this._el_103,'div',new import3.InlineArray2(2,'class','container'),(null as any));
+    this._text_106 = this.renderer.createText(this._el_105,'\n    ',(null as any));
+    this._el_107 = import3.createRenderElement(this.renderer,this._el_105,'p',new import3.InlineArray2(2,'class','text-muted'),(null as any));
+    this._text_108 = this.renderer.createText(this._el_107,'Place sticky footer content here.',(null as any));
+    this._text_109 = this.renderer.createText(this._el_105,'\n  ',(null as any));
+    this._text_110 = this.renderer.createText(this._el_103,'\n',(null as any));
     this.init((null as any),((<any>this.renderer).directRenderer? (null as any): [
       this._el_0,
-      this._text_1
+      this._text_1,
+      this._el_2,
+      this._text_3,
+      this._el_4,
+      this._text_5,
+      this._el_6,
+      this._text_7,
+      this._el_8,
+      this._text_9,
+      this._text_10,
+      this._el_11,
+      this._text_12,
+      this._el_13,
+      this._text_14,
+      this._el_15,
+      this._text_16,
+      this._text_17,
+      this._el_18,
+      this._text_19,
+      this._text_20,
+      this._text_21,
+      this._el_22,
+      this._text_23,
+      this._el_24,
+      this._text_25,
+      this._el_26,
+      this._el_27,
+      this._text_28,
+      this._text_29,
+      this._el_30,
+      this._el_31,
+      this._text_32,
+      this._text_33,
+      this._el_34,
+      this._el_35,
+      this._text_36,
+      this._text_37,
+      this._el_38,
+      this._text_39,
+      this._el_40,
+      this._text_41,
+      this._el_42,
+      this._text_43,
+      this._el_44,
+      this._text_45,
+      this._el_46,
+      this._el_47,
+      this._text_48,
+      this._text_49,
+      this._el_50,
+      this._el_51,
+      this._text_52,
+      this._text_53,
+      this._el_54,
+      this._el_55,
+      this._text_56,
+      this._text_57,
+      this._el_58,
+      this._text_59,
+      this._el_60,
+      this._text_61,
+      this._text_62,
+      this._el_63,
+      this._el_64,
+      this._text_65,
+      this._text_66,
+      this._el_67,
+      this._el_68,
+      this._text_69,
+      this._text_70,
+      this._text_71,
+      this._text_72,
+      this._text_73,
+      this._text_74,
+      this._text_75,
+      this._text_76,
+      this._text_77,
+      this._text_78,
+      this._el_79,
+      this._text_80,
+      this._el_81,
+      this._text_82,
+      this._el_83,
+      this._text_84,
+      this._text_85,
+      this._text_86,
+      this._el_87,
+      this._text_88,
+      this._el_89,
+      this._text_90,
+      this._text_91,
+      this._el_92,
+      this._text_93,
+      this._text_94,
+      this._text_95,
+      this._el_96,
+      this._text_97,
+      this._el_98,
+      this._text_99,
+      this._text_100,
+      this._text_101,
+      this._text_102,
+      this._el_103,
+      this._text_104,
+      this._el_105,
+      this._text_106,
+      this._el_107,
+      this._text_108,
+      this._text_109,
+      this._text_110
     ]
     ),(null as any));
     return (null as any);
-  }
-  detectChangesInternal(throwOnChange:boolean):void {
-    const currVal_2:any = import3.inlineInterpolate(1,'Hello ',this.context.name,'');
-    if (import3.checkBinding(throwOnChange,this._expr_2,currVal_2)) {
-      this.renderer.setText(this._text_1,currVal_2);
-      this._expr_2 = currVal_2;
-    }
   }
 }
